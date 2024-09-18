@@ -31,7 +31,7 @@ For easier integration, use these Shortcuts on your iPhone:
 
 ## 🔎 Search with Presearch Widget
 
-The Search with Presearch Widget provides a quick way to search with Presearch directly from your Safari browser. Here's how it works:
+The Search with Presearch Widget provides a quick way to search with Presearch directly from your Menu Control or Home Screen in 🧭 Safari. Here's how it works:
 
 1. The Widget prompts you to enter your search query.
 2. It then opens the Presearch search results page with your query.
@@ -44,7 +44,7 @@ The Search with Presearch Widget provides a quick way to search with Presearch d
 ├── index.html        # The main HTML file for Search with Presearch Shortcuts
 ├── README.md         # The file you're reading right now
 ├── IMG_9189.png  # Shortcuts icon
-└── IMG_9190.png  # GitHub icon
+└── IMG_9198.png  # GitHub icon
 ```
 
 ## 🛠️ Technologies Used

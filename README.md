@@ -19,7 +19,7 @@ Follow these steps to add the Presearch Bookmark Shortcut to Safari on your iPho
 4. Tap **Save** to add the bookmark to your browser.
 5. Navigate to your bookmarks and tap **Edit** (bottom-right corner).
 6. Replace the bookmark's URL with the code you copied earlier.
-7. Tap **Save** to finalize your nee Presearch bookmark.
+7. Tap **Save** to finalize your new Presearch Bookmark.
 
 ## 🍎 Apple Shortcuts
 

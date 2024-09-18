@@ -1,6 +1,6 @@
 # 🔎 Search with Presearch   <img src="IMG_9189.png" alt="Shortcuts Icon" width="35" height="35">
 
-This repository provides a simple guide and code to add a **Presearch Shortcuts** to your browser (Safari on IOS). The Bookmark allows you to quickly search using Presearch, a privacy-focused search engine.
+This repository provides a simple guide and code to add a **Presearch Shortcuts** to your browser (Safari on IOS). The Bookmark & Widget allows you to quickly search using Presearch, a privacy-focused search engine.
 
 ## 🚀 Features
 
@@ -21,14 +21,6 @@ Follow these steps to add the Presearch Bookmark Shortcut to Safari on your iPho
 6. Replace the bookmark's URL with the code you copied earlier.
 7. Tap **Save** to finalize your new Presearch Bookmark.
 
-## 🍎 Apple Shortcuts
-
-For easier integration, use these Shortcuts on your iPhone:
-
-<img src="IMG_9189.png" alt="Shortcuts Icon" width="20" height="20"> [Search with Presearch Bookmark](https://www.icloud.com/shortcuts/92c4fa7ed3cc4595bd4a8781eff5568d)
-
-<img src="IMG_9189.png" alt="Shortcuts Icon" width="20" height="20"> [Search with Presearch Widget](https://www.icloud.com/shortcuts/331231fd21994f83932b7712dd725b30)
-
 ## 🔎 Search with Presearch Widget
 
 The Search with Presearch Widget provides a quick way to search with Presearch directly from your Menu Control or Home Screen in 🧭 Safari. Here's how it works:
@@ -36,6 +28,14 @@ The Search with Presearch Widget provides a quick way to search with Presearch d
 1. The Widget prompts you to enter your search query.
 2. It then opens the Presearch search results page with your query.
 3. The Widget uses the tagline "Your privacy. Our priority." to emphasize Presearch's focus on privacy.
+
+## 🍎 Apple Shortcuts
+
+For easier integration, use these Shortcuts on your iPhone:
+
+<img src="IMG_9189.png" alt="Shortcuts Icon" width="20" height="20"> [Search with Presearch Bookmark](https://www.icloud.com/shortcuts/92c4fa7ed3cc4595bd4a8781eff5568d)
+
+<img src="IMG_9189.png" alt="Shortcuts Icon" width="20" height="20"> [Search with Presearch Widget](https://www.icloud.com/shortcuts/331231fd21994f83932b7712dd725b30)
 
 ## 📦 Project Structure
 

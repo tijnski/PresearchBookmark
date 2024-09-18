@@ -1,4 +1,4 @@
-# 🔎 Search with The Presearch  <img src="IMG_9189.png" alt="Shortcuts Icon" width="20" height="20">Shortcuts
+# 🔎 Search with The Presearch  <img src="IMG_9189.png" alt="Shortcuts Icon" width="30" height="30">Shortcuts
 
 This repository provides a simple guide and code to add a **Presearch Bookmark** to your browser (Safari on iPhone). The bookmark allows you to quickly search using Presearch, a privacy-focused search engine, directly from your bookmarks.
 
@@ -21,7 +21,7 @@ Follow these steps to add the Presearch bookmark to Safari on your iPhone:
 6. Replace the bookmark's URL with the code you copied earlier.
 7. Tap **Save** to finalize your nee Presearch bookmark.
 
-## 🔗 Shortcuts
+## <img src="IMG_9189.png" alt="Shortcuts Icon" width="20" height="20">Shortcuts
 
 For easier integration, use these shortcuts on your iPhone:
 

@@ -33,7 +33,7 @@ The Search with Presearch Widget provides a quick way to search with Presearch d
 
 For easier integration, use these Shortcuts on your iPhone:
 
-<img src="IMG_9189.png" alt="Shortcuts Icon" width="20" height="20"> [Search with Presearch Bookmark](https://www.icloud.com/shortcuts/92c4fa7ed3cc4595bd4a8781eff5568d)
+<img src="IMG_9189.png" alt="Shortcuts Icon" width="20" height="20"> [Search with Presearch Bookmark Helper](https://www.icloud.com/shortcuts/92c4fa7ed3cc4595bd4a8781eff5568d)
 
 <img src="IMG_9189.png" alt="Shortcuts Icon" width="20" height="20"> [Search with Presearch Widget](https://www.icloud.com/shortcuts/331231fd21994f83932b7712dd725b30)
 

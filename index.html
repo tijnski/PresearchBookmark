@@ -3,200 +3,159 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>🔎 Search With Presearch</title>
+    <title>Search with Presearch Bookmark</title>
     <style>
         body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-            text-align: center;
-            background-color: #f4f4f9;
-            margin: 0;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
             padding: 20px;
         }
         .container {
-            max-width: 600px;
-            margin: 0 auto;
+            background-color: #f4f4f4;
+            border-radius: 5px;
             padding: 20px;
-            background: #ffffff;
-            border-radius: 20px;
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-            border: 1px solid #e0e0e5;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
         }
-        h1 {
-            color: #007aff; /* Presearch color */
-            font-size: 24px;
-            font-weight: bold;
-            margin-bottom: 10px;
-        }
-        p {
-            font-size: 17px;
-            color: #666;
-            margin-bottom: 20px;
-        }
-        .button {
-            display: inline-block;
-            margin-top: 20px;
-            padding: 12px 24px;
-            font-size: 17px;
-            color: #ffffff;
-            background-color: #007aff; /* Presearch color */
-            text-decoration: none;
-            border-radius: 12px;
-            cursor: pointer;
-        }
-        .button:hover {
-            background-color: #005c99;
+        h1, h2 {
+            color: #2c3e50;
         }
         .code-container {
-            margin-top: 20px;
+            background-color: #e9e9e9;
+            border-radius: 5px;
+            padding: 10px;
+            margin-bottom: 20px;
         }
-        .code-container input {
-            width: 100%;
-            padding: 12px;
-            font-size: 17px;
-            border: 1px solid #ddd;
-            border-radius: 12px;
-            outline: none;
-            background-color: #f9f9fb;
-        }
-        .code-container button {
-            margin-top: 12px;
-            padding: 12px;
-            font-size: 17px;
-            color: #ffffff;
-            background-color: #007aff;
+        button {
+            background-color: #3498db;
+            color: white;
             border: none;
-            border-radius: 12px;
+            padding: 10px 20px;
+            border-radius: 5px;
             cursor: pointer;
+            font-size: 16px;
         }
-        .code-container button:hover {
-            background-color: #005c99;
-        }
-        .note {
-            margin-top: 20px;
-            font-size: 15px;
-            color: #999;
+        button:hover {
+            background-color: #2980b9;
         }
         .manual-steps {
-            margin-top: 30px;
-            text-align: left;
-        }
-        .manual-steps h2 {
-            font-size: 20px;
-            color: #007aff;
-            margin-bottom: 10px;
-        }
-        .manual-steps p {
-            font-size: 16px;
-            color: #333;
-            margin-bottom: 10px;
-        }
-        .footer {
-            margin-top: 40px;
-            font-size: 14px;
-            color: #666;
+            background-color: #eef2f7;
+            border-left: 5px solid #3498db;
+            padding: 10px 20px;
+            margin-bottom: 20px;
         }
         .shortcut-button {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background-color: #007aff;
+            display: inline-block;
+            background-color: #2ecc71;
             color: white;
             text-decoration: none;
-            padding: 12px 24px;
-            border-radius: 12px;
-            font-size: 17px;
-            margin: 10px 0;
-            width: auto;
-            max-width: 300px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-        .shortcut-button img {
+            padding: 10px 20px;
+            border-radius: 5px;
             margin-right: 10px;
-            width: 24px;
-            height: 24px;
+            margin-bottom: 10px;
         }
-
+        .shortcut-button:hover {
+            background-color: #27ae60;
+        }
+        .shortcut-button img {
+            vertical-align: middle;
+            margin-right: 5px;
+            width: 20px;
+            height: 20px;
+        }
         .github-link {
-            display: flex;
-            align-items: center;
-            justify-content: center;
+            display: inline-block;
             background-color: #333;
             color: white;
             text-decoration: none;
-            padding: 12px 24px;
-            border-radius: 12px;
-            font-size: 17px;
-            margin: 10px 0;
-            width: auto;
-            max-width: 300px;
-            margin-left: auto;
-            margin-right: auto;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin-top: 20px;
         }
-
+        .github-link:hover {
+            background-color: #555;
+        }
         .github-link img {
-            margin-right: 10px;
-            width: 24px;
-            height: 24px;
+            vertical-align: middle;
+            margin-right: 5px;
+            width: 20px;
+            height: 20px;
+        }
+        footer {
+            margin-top: 20px;
+            text-align: center;
+            font-style: italic;
+        }
+        .screenshot {
+            max-width: 100%;
+            height: auto;
+            margin: 20px 0;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>The Search with Presearch Bookmark</h1>
+        <h1>🔎 Search with Presearch Bookmark</h1>
+
         <p>To make searching with Presearch easier, follow the steps below to add the Presearch bookmark to your iPhone:</p>
 
         <div class="code-container">
-            <input type="text" id="bookmark-code" value="javascript:window.location='https://www.presearch.com/search?q='+encodeURIComponent(prompt('Your privacy. Our priority.'));" readonly>
-            <button onclick="copyToClipboard()">Copy Bookmark Code</button>
+            <button onclick="copyCode()">Copy Bookmark Code</button>
         </div>
 
-        <p class="note">Ensure the entire code is copied and correctly pasted in the bookmark URL field.</p>
-        
+        <p>Ensure the entire code is copied and correctly pasted in the bookmark URL field.</p>
+
         <div class="manual-steps">
             <h2>Manual Steps</h2>
-            <p>1. Open Safari on your iPhone.</p>
-            <p>2. Tap the <strong>Share</strong> 📤 button, then select <strong>Add Bookmark</strong> 📚.</p>
-            <p>3. Tap <strong>Save</strong> to add the bookmark.</p>
-            <p>4. Open <strong>Bookmarks</strong> and locate the one you just added.</p>
-            <p>5. Tap <strong>Edit</strong> (bottom-right corner) and replace the URL with the copied code.</p>
-            <p>6. Tap <strong>Save</strong> to finalize your new Presearch bookmark.</p>
+            <ol>
+                <li>Open Safari on your iPhone.</li>
+                <li>Tap the <strong>Share</strong> 📤 button, then select <strong>Add Bookmark</strong> 📚.</li>
+                <li>Tap <strong>Save</strong> to add the bookmark.</li>
+                <li>Open <strong>Bookmarks</strong> and locate the one you just added.</li>
+                <li>Tap <strong>Edit</strong> (bottom-right corner) and replace the URL with the copied code.</li>
+                <li>Tap <strong>Save</strong> to finalize your new Presearch bookmark.</li>
+            </ol>
         </div>
 
         <h2>Shortcuts</h2>
         <p>For easier integration, use these shortcuts:</p>
-
-        <!-- Presearch Bookmark Shortcut Button -->
-        <a href="https://www.icloud.com/shortcuts/3395ff7fcef74ab3b7861a2d86b986ba" class="shortcut-button">
-            <img src="IMG_9189.png" alt="Shortcuts Icon">
-            Presearch Bookmark Shortcut
-        </a>
-
-        <!-- Presearch Widget for Safari Shortcut Button -->
-        <a href="https://www.icloud.com/shortcuts/a22fcae8abae425e83bcbb793e59bf9e" class="shortcut-button">
-            <img src="IMG_9189.png" alt="Shortcuts Icon">
-            Presearch Widget for Safari Search
-        </a>
-
-        <!-- GitHub Link Button -->
-        <a href="https://github.com/tijnski/PresearchBookmark" class="github-link">
-            <img src="IMG_9190.png" alt="GitHub Icon">
-            View this project on GitHub
-        </a>
-
-        <div class="footer">
-            <p>Made by Tijn Hoorneman</p>
+        <div class="shortcuts-container">
+            <a href="https://www.icloud.com/shortcuts/92c4fa7ed3cc4595bd4a8781eff5568d" class="shortcut-button">
+                <img src="IMG_9189.png" alt="Shortcuts Icon"> Presearch Bookmark Shortcut
+            </a>
+            <a href="https://www.icloud.com/shortcuts/d06c5b8d42ed4bd592b6feb61ae65ad9" class="shortcut-button">
+                <img src="IMG_9189.png" alt="Shortcuts Icon"> Presearch Widget for Safari Search
+            </a>
         </div>
+
+        <h2>Safari Shortcut</h2>
+        <p>The Safari shortcut provides a quick way to search with Presearch directly from your Safari browser. Here's how it works:</p>
+        <ol>
+            <li>The shortcut prompts you to enter your search query.</li>
+            <li>It then opens the Presearch search results page with your query.</li>
+            <li>The shortcut uses the tagline "Your privacy. Our priority." to emphasize Presearch's focus on privacy.</li>
+        </ol>
+        <img src="IMG_9189.png" alt="Safari Shortcut Screenshot" class="screenshot">
+
+        <a href="https://github.com/tijnski/PresearchBookmark" class="github-link">
+            <img src="IMG_9190.png" alt="GitHub Icon"> View this project on GitHub
+        </a>
+
+        <footer>
+            Made by Tijn Hoorneman
+        </footer>
     </div>
 
     <script>
-        function copyToClipboard() {
-            var copyText = document.getElementById("bookmark-code");
-            copyText.select();
-            copyText.setSelectionRange(0, 99999); // For mobile devices
-            document.execCommand("copy");
-            alert("Bookmark code copied to clipboard!");
+        function copyCode() {
+            const code = "javascript:window.location='https://www.presearch.com/search?q='+encodeURIComponent(prompt('Your privacy. Our priority.'));";
+            navigator.clipboard.writeText(code).then(() => {
+                alert("Bookmark code copied to clipboard!");
+            });
         }
     </script>
 </body>

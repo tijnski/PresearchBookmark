@@ -1,4 +1,4 @@
-# 🔎 Search with The Presearch   <img src="IMG_9189.png" alt="Shortcuts Icon" width="40" height="40">Shortcuts
+# 🔎 Search with The Presearch   <img src="IMG_9189.png" alt="Shortcuts Icon" width="40" height="40">
 
 This repository provides a simple guide and code to add a **Presearch Bookmark Shortcut** to your browser (Safari on iPhone). The Bookmark allows you to quickly search using Presearch, a privacy-focused search engine.
 

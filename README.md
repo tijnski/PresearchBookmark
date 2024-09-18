@@ -1,7 +1,3 @@
-Here is the content of your `README.md` file:
-
----
-
 # 🔎 Search with Presearch Bookmark
 
 This repository provides a simple guide and code to add a **Presearch Bookmark** to your browser (Safari on iPhone). The bookmark allows you to quickly search using Presearch, a privacy-focused search engine, directly from your bookmarks.
@@ -60,7 +56,3 @@ javascript:window.location='https://www.presearch.com/search?q='+encodeURICompon
 ## 🤝 Contributions
 
 Feel free to submit a pull request or open an issue for any improvements or bugs you encounter.
-
----
-
-If you'd like any changes or additions, let me know!

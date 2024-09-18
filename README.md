@@ -13,7 +13,7 @@ This repository provides a simple guide and code to add a **Presearch Shortcuts*
 
 Follow these steps to add the Presearch Bookmark Shortcut to Safari on your iPhone:
 
-1. Open the website [🔎 Search with Presearch <img src="IMG_9189.png" alt="Shortcuts Icon" width="20" height="20">](#) in your browser.
+1. Open the website [🔎 Search with Presearch <img src="IMG_9189.png" alt="Shortcuts Icon" width="20" height="20">](tijnski.github.com/Presearchbookmark) in your browser.
 2. Tap the **"Copy Bookmark Code"** button to copy the JavaScript code.
 3. tap the **Share** button 📤, and select **Add Bookmark** 📚.
 4. Tap **Save** to add the bookmark to your browser.

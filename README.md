@@ -37,8 +37,6 @@ The Safari shortcut provides a quick way to search with Presearch directly from 
 2. It then opens the Presearch search results page with your query.
 3. The shortcut uses the tagline "Your privacy. Our priority." to emphasize Presearch's focus on privacy.
 
-![Safari Shortcut Screenshot](IMG_9189.png)
-
 ## 📦 Project Structure
 
 ```plaintext

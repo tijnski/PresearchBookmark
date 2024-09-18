@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Search With Presearch</title>
+    <title>🔎 Search With Presearch</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
             text-align: center;
-            background-color: #f4f4f4;
+            background-color: #f4f4f9;
             margin: 0;
             padding: 20px;
         }
@@ -17,25 +17,30 @@
             margin: 0 auto;
             padding: 20px;
             background: #ffffff;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 20px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            border: 1px solid #e0e0e5;
         }
         h1 {
             color: #007aff; /* Presearch color */
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
         }
         p {
-            font-size: 16px;
+            font-size: 17px;
             color: #666;
+            margin-bottom: 20px;
         }
         .button {
             display: inline-block;
             margin-top: 20px;
-            padding: 10px 20px;
-            font-size: 16px;
+            padding: 12px 24px;
+            font-size: 17px;
             color: #ffffff;
             background-color: #007aff; /* Presearch color */
             text-decoration: none;
-            border-radius: 5px;
+            border-radius: 12px;
             cursor: pointer;
         }
         .button:hover {
@@ -46,19 +51,21 @@
         }
         .code-container input {
             width: 100%;
-            padding: 10px;
-            font-size: 16px;
+            padding: 12px;
+            font-size: 17px;
             border: 1px solid #ddd;
-            border-radius: 5px;
+            border-radius: 12px;
+            outline: none;
+            background-color: #f9f9fb;
         }
         .code-container button {
-            margin-top: 10px;
-            padding: 10px;
-            font-size: 16px;
+            margin-top: 12px;
+            padding: 12px;
+            font-size: 17px;
             color: #ffffff;
-            background-color: #007aff; /* Presearch color */
+            background-color: #007aff;
             border: none;
-            border-radius: 5px;
+            border-radius: 12px;
             cursor: pointer;
         }
         .code-container button:hover {
@@ -66,45 +73,55 @@
         }
         .note {
             margin-top: 20px;
-            font-size: 14px;
+            font-size: 15px;
             color: #999;
         }
         .manual-steps {
             margin-top: 30px;
             text-align: left;
         }
+        .manual-steps h2 {
+            font-size: 20px;
+            color: #007aff;
+            margin-bottom: 10px;
+        }
+        .manual-steps p {
+            font-size: 16px;
+            color: #333;
+            margin-bottom: 10px;
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Add the search with Presearch Bookmark</h1>
-        <p>To enhance your browsing experience with Presearch, follow these steps to add our bookmarklet:</p>
+        <h1>The Search with Presearch Bookmark</h1>
+        <p>To make searching with Presearch easier, follow the steps below to add the Presearch bookmark to your iPhone:</p>
 
         <div class="code-container">
-            <input type="text" id="bookmarklet-code" value="javascript:window.location='https://www.presearch.com/search?q='+encodeURIComponent(prompt('Your privacy. Our priority.'));" readonly>
-            <button onclick="copyToClipboard()">Copy Bookmarklet Link</button>
+            <input type="text" id="bookmark-code" value="javascript:window.location='https://www.presearch.com/search?q='+encodeURIComponent(prompt('Your privacy. Our priority.'));" readonly>
+            <button onclick="copyToClipboard()">Copy Bookmark Code</button>
         </div>
 
-        <p class="note">If you encounter issues, ensure you have copied the entire code and pasted it correctly in the bookmark URL field.</p>
+        <p class="note">Ensure the entire code is copied and correctly pasted in the bookmark URL field.</p>
         
         <div class="manual-steps">
             <h2>Manual Steps</h2>
             <p>1. Open Safari on your iPhone.</p>
-            <p>2. Tap the <strong>Share</strong> button and select <strong>Add Bookmark</strong>.</p>
+            <p>2. Tap the <strong>Share</strong> 📤 button, then select <strong>Add Bookmark</strong> 📚.</p>
             <p>3. Tap <strong>Save</strong> to add the bookmark.</p>
-            <p>4. Go to <strong>Bookmarks</strong> and find the newly created bookmark.</p>
-            <p>5. Tap <strong>Edit</strong> and replace the URL with the copied link.</p>
-            <p>6. Tap <strong>Save</strong> to finalize.</p>
+            <p>4. Open <strong>Bookmarks</strong> and locate the one you just added.</p>
+            <p>5. Tap <strong>Edit</strong> (bottom-right corner) and replace the URL with the copied code.</p>
+            <p>6. Tap <strong>Save</strong> to finalize your new Presearch bookmark.</p>
         </div>
     </div>
 
     <script>
         function copyToClipboard() {
-            var copyText = document.getElementById("bookmarklet-code");
+            var copyText = document.getElementById("bookmark-code");
             copyText.select();
             copyText.setSelectionRange(0, 99999); // For mobile devices
             document.execCommand("copy");
-            alert("Bookmarklet link copied to clipboard!");
+            alert("Bookmark code copied to clipboard!");
         }
     </script>
 </body>

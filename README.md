@@ -1,19 +1,19 @@
 # 🔎 Search with The Presearch  <img src="IMG_9189.png" alt="Shortcuts Icon" width="30" height="30">Shortcuts
 
-This repository provides a simple guide and code to add a **Presearch Bookmark** to your browser (Safari on iPhone). The bookmark allows you to quickly search using Presearch, a privacy-focused search engine, directly from your bookmarks.
+This repository provides a simple guide and code to add a **Presearch Bookmark Shortcut** to your browser (Safari on iPhone). The Bookmark allows you to quickly search using Presearch, a privacy-focused search engine.
 
 ## 🚀 Features
 
-- Easy step-by-step guide to add the Presearch bookmark.
+- Easy step-by-step guide to add the Presearch Bookmark Shortcut.
 - Simple design for easy navigation.
 - Copyable JavaScript code for adding the search functionality directly to your Safari bookmarks.
 - Shortcuts for easier integration on iPhone.
 
 ## 📄 How to Use
 
-Follow these steps to add the Presearch bookmark to Safari on your iPhone:
+Follow these steps to add the Presearch Bookmark Shortcut to Safari on your iPhone:
 
-1. Open the website [🔎 Search with Presearch](#) in your browser.
+1. Open the website [🔎 Search with Presearch Shortcuts](#) in your browser.
 2. Tap the **"Copy Bookmark Code"** button to copy the JavaScript code.
 3. tap the **Share** button 📤, and select **Add Bookmark** 📚.
 4. Tap **Save** to add the bookmark to your browser.
@@ -23,25 +23,25 @@ Follow these steps to add the Presearch bookmark to Safari on your iPhone:
 
 ## <img src="IMG_9189.png" alt="Shortcuts Icon" width="25" height="25">Shortcuts
 
-For easier integration, use these shortcuts on your iPhone:
+For easier integration, use these Shortcuts on your iPhone:
 
-<img src="IMG_9189.png" alt="Shortcuts Icon" width="20" height="20"> [Presearch Bookmark Shortcut](https://www.icloud.com/shortcuts/92c4fa7ed3cc4595bd4a8781eff5568d)
+<img src="IMG_9189.png" alt="Shortcuts Icon" width="20" height="20"> [Search with Presearch Bookmark](https://www.icloud.com/shortcuts/92c4fa7ed3cc4595bd4a8781eff5568d)
 
-<img src="IMG_9189.png" alt="Shortcuts Icon" width="20" height="20"> [Presearch Widget for Safari Search](https://www.icloud.com/shortcuts/d06c5b8d42ed4bd592b6feb61ae65ad9)
+<img src="IMG_9189.png" alt="Shortcuts Icon" width="20" height="20"> [Search with Presearch Widget](https://www.icloud.com/shortcuts/d06c5b8d42ed4bd592b6feb61ae65ad9)
 
-## Safari <img src="IMG_9189.png" alt="Shortcuts Icon" width="25" height="25">Shortcut
+## Search with Presearch Widget
 
-The Safari shortcut provides a quick way to search with Presearch directly from your Safari browser. Here's how it works:
+The Search with Presearch Widget provides a quick way to search with Presearch directly from your Safari browser. Here's how it works:
 
-1. The shortcut prompts you to enter your search query.
+1. The Widget prompts you to enter your search query.
 2. It then opens the Presearch search results page with your query.
-3. The shortcut uses the tagline "Your privacy. Our priority." to emphasize Presearch's focus on privacy.
+3. The Widget uses the tagline "Your privacy. Our priority." to emphasize Presearch's focus on privacy.
 
 ## 📦 Project Structure
 
 ```plaintext
 .
-├── index.html        # The main HTML file for the bookmark guide
+├── index.html        # The main HTML file for Search with Presearch Shortcuts
 ├── README.md         # The file you're reading right now
 ├── IMG_9189.png  # Shortcuts icon
 └── IMG_9190.png  # GitHub icon

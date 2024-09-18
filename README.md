@@ -1,4 +1,4 @@
-# 🔎 Search with Presearch Bookmark
+# 🔎 Search with The Presearch Bookmark
 
 This repository provides a simple guide and code to add a **Presearch Bookmark** to your browser (Safari on iPhone). The bookmark allows you to quickly search using Presearch, a privacy-focused search engine, directly from your bookmarks.
 
@@ -15,11 +15,11 @@ Follow these steps to add the Presearch bookmark to Safari on your iPhone:
 
 1. Open the website [🔎 Search with Presearch](#) in your browser.
 2. Tap the **"Copy Bookmark Code"** button to copy the JavaScript code.
-3. Open Safari on your iPhone, tap the **Share** button 📤, and select **Add Bookmark** 📚.
+3. tap the **Share** button 📤, and select **Add Bookmark** 📚.
 4. Tap **Save** to add the bookmark to your browser.
 5. Navigate to your bookmarks and tap **Edit** (bottom-right corner).
 6. Replace the bookmark's URL with the code you copied earlier.
-7. Tap **Save** to finalize your Presearch bookmark.
+7. Tap **Save** to finalize your nee Presearch bookmark.
 
 ## 🔗 Shortcuts
 

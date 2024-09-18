@@ -71,6 +71,6 @@ javascript:window.location='https://www.presearch.com/search?q='+encodeURICompon
 
 Feel free to submit a pull request or open an issue for any improvements or bugs you encounter.
 
-<img src="IMG_9190.png" alt="GitHub Icon" width="20" height="20"> [View this project on GitHub](https://github.com/tijnski/PresearchBookmark)
+<img src="IMG_9198.png" alt="GitHub Icon" width="20" height="20"> [View this project on GitHub](https://github.com/tijnski/PresearchBookmark)
 
 Made by Tijn Hoorneman

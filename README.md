@@ -1,4 +1,4 @@
-# 🔎 Search with The Presearch Bookmark
+# 🔎 Search with The Presearch Shortcuts
 
 This repository provides a simple guide and code to add a **Presearch Bookmark** to your browser (Safari on iPhone). The bookmark allows you to quickly search using Presearch, a privacy-focused search engine, directly from your bookmarks.
 

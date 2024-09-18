@@ -43,9 +43,8 @@ The Safari shortcut provides a quick way to search with Presearch directly from 
 .
 ├── index.html        # The main HTML file for the bookmark guide
 ├── README.md         # The file you're reading right now
-└── images/           # Directory containing project images
-    ├── IMG_9189.png  # Shortcuts icon
-    └── IMG_9190.png  # GitHub icon
+├── IMG_9189.png  # Shortcuts icon
+└── IMG_9190.png  # GitHub icon
 ```
 
 ## 🛠️ Technologies Used

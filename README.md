@@ -21,7 +21,7 @@ Follow these steps to add the Presearch Bookmark Shortcut to Safari on your iPho
 6. Replace the bookmark's URL with the code you copied earlier.
 7. Tap **Save** to finalize your nee Presearch bookmark.
 
-## <img src="IMG_9189.png" alt="Shortcuts Icon" width="25" height="25">Shortcuts
+## 🍎 Apple Shortcuts
 
 For easier integration, use these Shortcuts on your iPhone:
 
@@ -29,7 +29,7 @@ For easier integration, use these Shortcuts on your iPhone:
 
 <img src="IMG_9189.png" alt="Shortcuts Icon" width="20" height="20"> [Search with Presearch Widget](https://www.icloud.com/shortcuts/d06c5b8d42ed4bd592b6feb61ae65ad9)
 
-## Search with Presearch Widget
+## 🔎 Search with Presearch Widget
 
 The Search with Presearch Widget provides a quick way to search with Presearch directly from your Safari browser. Here's how it works:
 
